@@ -7,21 +7,17 @@ let answer;
 
 function getNumber0() {
     const num0 = prompt("Please enter the first value.");
-    localStorage.setItem("number0", num0);
 }
 
 function getNumber1() {
     const num1 = prompt("Please enter the second value.");
-    localStorage.setItem("number1", num1);
 }
 
 function getOperator() {
     const setOperation = prompt("Please enter an operator (+, -, x, * OR /).");
-    localStorage.setItem("setOperation", setOperation);
 }
 function getOperatorAgain() {
     const setOperation = prompt("The operator you have entered are unavailable. Please enter an operator again (+, -, x, * OR /).");
-    localStorage.setItem("setOperation", setOperation);
 }
 
 function add(num0, num1) {
