@@ -34,3 +34,11 @@ img {
     width: 600px;
     border-radius: 25px 10px 25px 10px;
 }
+
+.redirect-link-button {
+    padding: 3px;
+    border: solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
