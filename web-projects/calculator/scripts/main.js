@@ -1,4 +1,6 @@
 let myButton = document.querySelector("button");
+let userInput1;
+let userInput2;
 let num0;
 let num1;
 let setOperation;
