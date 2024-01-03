@@ -12,23 +12,19 @@ number0 = Number(userNumberInput0);
 number1 = Number(userNumberInput1);
 
 if (setOperation == "+") {
-    answer = number0 + number1;
-    alert(answer);
+    alert(number0 + number1);
 }
 else if (setOperation == "-") {
-    answer = number0 - number1;
-    alert(answer);
+    alert(number0 - number1);
 }
 else if (setOperation == "x" || "*") {
-    answer = number0 * number1;
-    alert(answer);
+    alert(number0 * number1);
 }
 else if (setOperation == "/") {
-    answer = number0 / number1;
-    alert(answer);
+    alert(number0 / number1);
 }
 else {
     setOperation = prompt("Please enter an operator (+, -, x, * OR /).");
  }
 
-console.log (number0, number1, setOperation, answer);
+console.log (number0, number1, setOperation);
