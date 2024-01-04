@@ -17,14 +17,11 @@ if (setOperation == "+") {
 else if (setOperation == "-") {
     alert(number0 - number1);
 }
-else if (setOperation == "x" || "*") {
+else if (setOperation == "x" || setOperation == "*") {
     alert(number0 * number1);
 }
 else if (setOperation == "/") {
     alert(number0 / number1);
 }
-else {
-    setOperation = prompt("Please enter an operator (+, -, x, * OR /).");
- }
 
 console.log (number0, number1, setOperation);
