@@ -23,5 +23,8 @@ else if (setOperation == "x" || setOperation == "*") {
 else if (setOperation == "/") {
     alert(number0 / number1);
 }
+else if (setOperation == "null" || "") {
+    setOperation = prompt("Please enter an operator (+, -, x, * OR /).");
+}
 
 console.log (number0, number1, setOperation);
